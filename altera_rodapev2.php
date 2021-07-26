@@ -11,7 +11,7 @@ Text Domain: primeiro plugin
 */
 
 function meu_plugin_altera_rodape(){
-    echo 'meu primeiro plugin Alexandre';
+    echo "meu primeiro plugin Alexandre -";
 }
 
 add_action('wp_footer','meu_plugin_altera_rodape');
